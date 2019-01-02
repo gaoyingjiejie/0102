@@ -1,0 +1,73 @@
+@import '_minix.scss';
+@import 'common.scss';
+.wrap {
+    width: 100%;
+    height: 100%;
+    // background: red;
+    @include box_flex;
+    @include direction(column);
+}
+
+section {
+    @include box_flex;
+    @include flex;
+    width: 100%;
+    background: #fff;
+    @include direction(column);
+    @include align;
+    @include justify;
+    #img {
+        width: pxTorem(70px);
+        height: pxTorem(70px);
+        // background: blue;
+        margin-bottom: pxTorem(30px);
+        img {
+            width: pxTorem(70px);
+            height: pxTorem(70px);
+        }
+    }
+    .button {
+        width: pxTorem(300px);
+        height: pxTorem(40px);
+        border: 1px solid red;
+        margin-bottom: pxTorem(30px);
+        border-radius: pxTorem(15px);
+        color: red;
+        text-align: center;
+        line-height: pxTorem(40px);
+        font-size: pxTorem(15px);
+    }
+    p {
+        a {
+            color: #666;
+        }
+    }
+}
+
+p {
+    width: 100%;
+    height: pxTorem(30px);
+    text-align: center;
+    line-height: pxTorem(30px);
+    color: #666;
+}
+
+footer {
+    width: 100%;
+    height: pxTorem(100px);
+    // background: yellow;
+    @include box_flex;
+    dl {
+        width: 25%;
+        height: 100%;
+        // background: orange;
+        @include align;
+        @include justify;
+        @include box_flex;
+        @include direction(column);
+        .iconfont {
+            font-size: pxTorem(35px);
+            margin-bottom: pxTotem(20px);
+        }
+    }
+}

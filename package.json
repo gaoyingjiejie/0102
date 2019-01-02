@@ -1,0 +1,19 @@
+{
+    "name": "20190102",
+    "version": "1.0.0",
+    "description": "20190102",
+    "main": "index.js",
+    "scripts": {
+        "dev": "gulp dev"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/gaoyingjiejie/20190102.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/gaoyingjiejie/20190102/issues"
+    },
+    "homepage": "https://github.com/gaoyingjiejie/20190102#readme"
+}
